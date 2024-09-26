@@ -1,16 +1,6 @@
-# providercounter
+This app uses Provider State Managment where counter value is incremented, decremented, Moreover it manages current theme using Provider.
+ThemeData & value of counter is saved and loaded from cache using Shared Preferences. Which is a baby step in caching world.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/03b43780-85c1-42c0-ba58-124de6c1f69f" alt="doodoo">
+</div>
