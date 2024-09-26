@@ -1,0 +1,18 @@
+check z-notes in H/:
+flutter pub add provider
+import
+make provider class which will have your variable (get)too and functions
+each function should contain notifyListeners();
+wrap MaterialApp() into ChangeNotifierProvider
+    create: (context) => class;
+introduce provider variable in build of widget 
+    final name = Provider.of<class>(context,listen: false,);
+    listen will only reload specific widget
+Use Consumer (go deep as you can in widget tree no pun intended)
+    Consumer<class>(builder: (context,data,child){
+        return Widget(
+            //use value here
+            data.value;
+        );
+    })
+use functions from name.functionname();
